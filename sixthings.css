@@ -1,0 +1,64 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column-labels {
+    display: grid;
+    grid-template-columns: 50px 2fr repeat(3, 1fr);
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 10px;
+}
+
+.column-labels span {
+    text-align: center;
+    font-size: 14px;
+}
+
+.question {
+    display: grid;
+    grid-template-columns: 50px 2fr repeat(3, 1fr);
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 10px;
+}
+
+.emoji {
+    text-align: center;
+}
+
+.question-text {
+    text-align: left;
+}
+
+input[type='radio'] {
+    transform: scale(1.5);
+    margin: 0 auto;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-green {
+    background-color: green;
+}
